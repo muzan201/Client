@@ -1,13 +1,14 @@
 import TelegramBot from 'node-telegram-bot-api';
 
-// Your token
-const TOKEN = '8398951273:AAF98Ki3NCaoD_w2fytnkMJnYOW7ksdoytg'
-// Links for buttons
+// Bot token
+const TOKEN = '8398951273:AAF98Ki3NCaoD_w2fytnkMJnYOW7ksdoytg';
+
+// Links
 const CHANNEL_URL = 'https://t.me/blondiesplayground';
 const PRIVATE_CHAT_URL = 'https://t.me/SecretsOfVictoria1';
 
-// Image to send (change if you want your own image)
-const IMAGE_URL = 'IMG_4060.jpeg';
+// Use RAW GitHub URL
+const IMAGE_URL = 'https://raw.githubusercontent.com/muzan201/Client/main/IMG_4060.jpeg';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
